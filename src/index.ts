@@ -11,7 +11,9 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://onelink-eight-ecru.vercel.app"
+        "https://onelink-eight-ecru.vercel.app",
+        "https://one-link.xyz",
+        "https://www.one-link.xyz"
     ],
 }));
 app.use(express.json());

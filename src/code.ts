@@ -1,3 +1,4 @@
+//Generates the code for the short link
 export default function makeCode(length: number) {
     let result = '';
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

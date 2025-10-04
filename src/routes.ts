@@ -43,7 +43,7 @@ router.post('/shorten', async (req, res) => {
     res.json({ code: `${newLink.code}` });
 });
 
-router.get('/:code', async (req, res) => {
+router.get('/r/:code', async (req, res) => {
 
     //Gets code from params
     const code = req.params.code;
